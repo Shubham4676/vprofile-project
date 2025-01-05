@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo yum install java-17-openjdk -y
+sudo yum install wget -y
 mkdir -p /opt/nexus/   
 mkdir -p /tmp/nexus/                           
 cd /tmp/nexus/
